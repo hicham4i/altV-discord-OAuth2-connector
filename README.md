@@ -1,4 +1,4 @@
-# altv-discord-OAuth2-connector
+# alt:V-discord-OAuth2-connector
 altv:MP resource that uses OAuth2 discord api to connect players to server depending on the roles
 
 ## Requirements
