@@ -9,7 +9,7 @@
 * set connectionURI to 
 * "https://discord.com/api/oauth2/authorize?client_id=**************&redirect_uri=http%3A%2F%2Fresources%2Fdiscord%2Fhtml%2Findex.html&response_type=token&scope=identify"
 * and change client_id
-* copy token from bot tab and past in config file where key token 
+* copy token from bot tab and past it in config file where key = token 
 * create 'whitelise' role in your discord server and 'owner' role
 * start the resource
 * send !set config to the bot 
