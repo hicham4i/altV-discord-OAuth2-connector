@@ -4,11 +4,10 @@ altv:MP resource that uses OAuth2 discord api to connect players to server depen
 ## Requirements
 
 * clone this repo in dir 'discord' otherwise you need to change the code
-In "discord" directory where resource.cfg file. Simply run these command.
+* In "discord" directory where resource.cfg file. Simply run these command.
 
 ```
 npm i
-
 ```
 * you need to create a discord app & bot here [Discord applications](https://discord.com/developers/applications)
 * go to OAuth2 tab and add a Redirect uri as "http://resources/discord/html/index.html"
