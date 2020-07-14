@@ -30,7 +30,7 @@ window.onload = () => {
             alt.emit("discord:connected:user", response);
         })
         .catch(() => {
-            alt.emit("discord:destroy:failed", response);
+            alt.emit("discord:destroy:failed");
         });
     }
 }
