@@ -15,14 +15,14 @@ npm i
 ```
 http://resources/discord/html/index.html
 ```
-![](https://imgur.com/nDvFPVe)
+![](https://i.imgur.com/nDvFPVe.png)
 
 * copy ClientID and 
 * got to : discord/server/config.json
 * select ************** and past to set your client_id
 * copy token from bot tab  and past it in config file where key = token 
 
-![](https://imgur.com/NpmyJ5A)
+![](https://i.imgur.com/NpmyJ5A.png)
 
 * create 'whitelist' role in your discord server and 'owner' role
 * start the resource
