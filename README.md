@@ -1,8 +1,10 @@
 # altv-discord-OAuth2-connector
-* altv:MP resource that uses OAuth2 discord api to connect players to server depanding on the roles
+altv:MP resource that uses OAuth2 discord api to connect players to server depanding on the roles
+
+## Requirements
 
 * clone this repo in dir 'discord' otherwise you need to change the code
-* you need to create a discord app & bot here "https://discord.com/developers/applications"
+* you need to create a discord app & bot here [Discord applications](https://discord.com/developers/applications)
 * go to OAuth2 tab and add a Redirect uri as "http://resources/discord/html/index.html"
 * copy ClientID and 
 * got to : discord/server/config.json
