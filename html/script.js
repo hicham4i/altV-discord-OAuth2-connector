@@ -19,16 +19,18 @@ window.onload = () => {
                 authorization: `${tokenType} ${accessToken}`
             }
         })
-            .then(res => res.json())
-            .then(response => {
-                delete response.flags;
-                delete response.locale;
-                delete response.mfa_enabled;
-                delete response.public_flags;
-                delete response.verified;
-                delete response.discriminator;
-                alt.emit("discord:connected:user", response);
-            })
-            .catch(alt.emit("discord:destroy:failed", response));
+        .then(res => res.json())
+        .then(response => {
+            delete response.flags;
+            delete response.locale;
+            delete response.mfa_enabled;
+            delete response.public_flags;
+            delete response.verified;
+            delete response.discriminator;
+            alt.emit("discord:connected:user", response);
+        })
+        .catch(() => {
+            alt.emit("discord:destroy:failed", response);
+        });
     }
 }
