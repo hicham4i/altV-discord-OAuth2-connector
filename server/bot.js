@@ -90,7 +90,7 @@ function setVariablesInJson(key, value) {
     });
 }
 /**
- * this function get all the users that have the role
+ * this function get all the users that have the role 
  * 'whitelist' and put them in the array whitelist
  * @returns {void}
  */ 
