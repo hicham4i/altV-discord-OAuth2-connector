@@ -1,5 +1,5 @@
 {
-    "name": "OAuth2 discord api",
+    "name": "OAuth2-discord-api",
     "version": "0.0.1",
     "description": "OAuth2 discord api to connect players to AltV Server",
     "main": "index.js",
