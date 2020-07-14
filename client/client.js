@@ -13,7 +13,9 @@ alt.onServer('discord:showHUD', (communityDiscord) => {
     view.focus();
     alt.showCursor(true);
     discordURL = communityDiscord;
-    view.emit('show', discordURL);
+    alt.setTimeout(() => {
+        view.emit('show', discordURL);
+    }, 100);
     native.triggerScreenblurFadeIn(0);
 });
 alt.onServer('discord:destroy:succeed', () => {
