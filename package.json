@@ -1,0 +1,24 @@
+{
+    "name": "OAuth2 discord api",
+    "version": "0.0.1",
+    "description": "OAuth2 discord api to connect players to AltV Server",
+    "main": "index.js",
+    "scripts": {},
+    "author": "Hicham 'Delliriø' Rabai",
+    "dependencies": {
+        "chalk": "^4.0.0",
+        "discord.js": "^12.2.0"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@altv/types-client": "^1.1.0",
+        "@altv/types-server": "^1.2.0",
+        "prettier": "^1.18.2"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "singleQuote": true,
+        "bracketSpacing": true
+    }
+}
